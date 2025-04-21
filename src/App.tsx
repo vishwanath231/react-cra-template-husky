@@ -3,8 +3,6 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  const [users, setUsers] = React.useState([]);
-  console.log(users);
   return (
     <div className="App">
       <header className="App-header">
