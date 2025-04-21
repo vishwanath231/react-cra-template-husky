@@ -18,6 +18,11 @@ export default defineConfig([
       react: pluginReact,
       "@typescript-eslint": tseslint.plugin,
     },
+    settings: {
+      react: {
+        version: "detect",
+      },
+    },
     extends: ["js/recommended", tseslint.configs.recommended, pluginReact.configs.flat.recommended],
     rules: {
       "react/prop-types": "warn",
